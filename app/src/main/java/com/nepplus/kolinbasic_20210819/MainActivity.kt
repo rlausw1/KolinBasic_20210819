@@ -42,7 +42,74 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        //조건문 체험 부분
 
+        var userAge = 18
+
+        if (userAge >=20 ) {
+
+            Log.d("나이확인", "성인입니다")
+
+        }
+
+        else if ( userAge >=17) {
+
+
+
+
+
+
+
+
+            Log.d("나이확인", " 고등학생 입니다.")
+
+        }
+
+        else if ( userAge >=14) {
+            Log.d("나이확인", "중학생 입니다.")
+
+
+        }
+
+        else if ( userAge >=8) {
+            Log.d("나이확인",  "초등학생 입니다.") }
+
+        else {
+            Log.d("나이확인", "미취학 아동 입니다.")
+
+        }
+
+//장기 근속의 3대 요건
+//        1. 높은 급여
+//                2. 가까운 거리
+//                3. 워라벨
+
+
+        val companyASalary = 5800
+        val companyADistance = 12.5
+        val companyABalance = true
+
+        //질문 1. 연봉이 4천 이상이면 취업
+
+        if( companyASalary >=4000) {
+            //연봉 높아서 취업
+
+        }
+
+        //사람2. 거리가 10km미만 AND 연봉 3000 이상
+
+        if ( companyADistance < 10 && companyASalary >= 3000) {
+
+
+        }
+
+
+        //사람3. 워라벨이 ok 거나, 연봉이 5천 이상
+
+        if (companyABalance || companyASalary >= 5000 ) {
+
+            }
+        }
 
     }
 }
