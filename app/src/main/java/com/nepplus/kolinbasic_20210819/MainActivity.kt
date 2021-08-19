@@ -10,6 +10,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        logBtn02.setOnClickListener {
+
+            Log.d("메인화면", "두번째 로그 버튼 눌림")
+
+        }
+
         logBtn01.setOnClickListener {
 
             //무슨 말을 적어도 괜찮다. (메모 - 주석)
