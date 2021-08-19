@@ -3,6 +3,7 @@ package com.nepplus.kolinbasic_20210819
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -10,9 +11,20 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
+
+
         logBtn02.setOnClickListener {
 
             Log.d("메인화면", "두번째 로그 버튼 눌림")
+
+        }
+
+
+        toastBtn.setOnClickListener {
+
+            //사용자에게 알림 (토스트) 띄우기
+            Toast.makeText(this, "연습용 토스트 띄우기", Toast.LENGTH_SHORT).show()
 
         }
 
