@@ -18,7 +18,7 @@
         android:id="@+id/logBtn02"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="로그 확인 버튼 2"
+        android:text="로그 확인 버튼 2" />
 
 
 
